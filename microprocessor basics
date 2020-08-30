@@ -1,0 +1,12 @@
+;<Program title>
+
+jmp start
+
+;data
+
+;code
+start: nop
+mvi a,04; load 04 in Acc
+mvi b,03; load 03 in B-register
+sub b; add the content of b register with Acc
+hlt
